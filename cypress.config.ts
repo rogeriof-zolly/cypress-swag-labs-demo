@@ -14,7 +14,7 @@ async function setupNodeEvents(
 		webpack({
 			webpackOptions: {
 				resolve: {
-					extensions: ['.ts', '.js'],
+					extensions: ['.ts', '.js', '.json'],
 				},
 				module: {
 					rules: [

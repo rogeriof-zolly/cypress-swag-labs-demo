@@ -1,9 +1,9 @@
-import { GOOGLE_PAGE_BUTTONS } from '../elements/googlePage/buttons';
 import { GOOGLE_PAGE_ITEMS } from '../elements/googlePage/items';
+import { googleUrl } from '../fixtures/urls.json';
 
 export class GooglePage {
 	visit() {
-		cy.visit('https://www.google.com');
+		cy.visit(googleUrl);
 	}
 
 	search(search: string) {
