@@ -48,9 +48,11 @@ async function setupNodeEvents(
 
 export default defineConfig({
 	e2e: {
-		baseUrl: 'https://duckduckgo.com',
+		baseUrl: 'https://saucedemo.com',
 		specPattern: ['**/*.feature', '**/*.spec.ts'],
 		supportFile: false,
+		modifyObstructiveCode: false,
+		chromeWebSecurity: false,
 		setupNodeEvents,
 	},
 });
