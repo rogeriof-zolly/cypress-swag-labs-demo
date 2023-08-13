@@ -1,0 +1,27 @@
+{
+	"name": "cypress-e2e-demo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepBaseDir": "cypress/support/steps",
+		"nonGlobalStepDefinitions": true,
+		"step_definitions": "cypress/e2e",
+		"typescript": true
+	},
+	"repository": "git@github.com:rogeriof-zolly/cypress-e2e-demo.git",
+	"author": "rogerio.zolly <rogerio.zolly@mksolutions.com.br>",
+	"license": "MIT",
+	"dependencies": {
+		"@badeball/cypress-cucumber-preprocessor": "^18.0.4",
+		"@cypress/webpack-preprocessor": "^5.17.1",
+		"cypress": "^12.17.3",
+		"cypress-cucumber-preprocessor": "^4.3.1",
+		"cypress-mochawesome-reporter": "^3.5.1",
+		"eslint": "^8.47.0",
+		"eslint-plugin-cypress": "^2.14.0",
+		"prettier": "^3.0.1",
+		"ts-loader": "^9.4.4",
+		"typescript": "^5.1.6",
+		"webpack": "^5.88.2"
+	}
+}
